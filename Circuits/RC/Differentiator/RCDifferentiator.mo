@@ -1,7 +1,7 @@
 within Electrodelica.Circuits.RC.Differentiator;
 
 model RCDifferentiator
-  extends PulseVoltageRC;
+  extends ResistorCapacitorRC;
   import Modelica.Electrical.Analog.Basic.Capacitor;
   import Modelica.Electrical.Analog.Basic.Resistor;
   final Modelica.Electrical.Analog.Basic.Capacitor C1(C = capacitance) annotation(

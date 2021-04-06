@@ -1,7 +1,7 @@
 within Electrodelica.Circuits.RC.BandPassFilter;
 
 model BandPassFilter
-extends PulseVoltageRC;
+extends ResistorCapacitorRC;
   import Modelica.Electrical.Analog.Basic.Capacitor;
   import Modelica.Electrical.Analog.Basic.Resistor;
   

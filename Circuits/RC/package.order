@@ -1,5 +1,4 @@
-PulseVoltageRC
 ResistorCapacitorRC
-Integrator
-Differentiator
 BandPassFilter
+Differentiator
+Integrator

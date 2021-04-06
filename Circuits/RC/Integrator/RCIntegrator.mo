@@ -1,7 +1,7 @@
 within Electrodelica.Circuits.RC.Integrator;
 
 model RCIntegrator
-  extends PulseVoltageRC;
+  extends ResistorCapacitorRC;
   import Modelica.Electrical.Analog.Basic.Capacitor;
   import Modelica.Electrical.Analog.Basic.Resistor;
   final Modelica.Electrical.Analog.Basic.Resistor R1(R = resistance) annotation(

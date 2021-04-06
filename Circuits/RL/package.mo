@@ -1,7 +1,7 @@
 within Electrodelica.Circuits;
 
-package RC
+package RL
 
   annotation(
     Documentation(info = "author: initkfs, 2021."));
-end RC;
+end RL;
