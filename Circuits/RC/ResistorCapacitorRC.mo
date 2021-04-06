@@ -5,8 +5,8 @@ model ResistorCapacitorRC
     Documentation(info = "author: initkfs, 2021."));
 
   import Modelica.Units.SI;
-  parameter SI.Voltage voltage = 12;
-  parameter SI.Resistance resistance = 1000;
-  parameter SI.Capacitance capacitance = 0.0001 "100µF";
+  parameter SI.Voltage voltage = 5;
+  parameter SI.Resistance resistance = 1500;
+  parameter SI.Capacitance capacitance = 0.00001 "10µF";
   
 end ResistorCapacitorRC;
