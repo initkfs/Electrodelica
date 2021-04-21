@@ -8,7 +8,7 @@ extends Base.SineVoltageAndOut(V1.f = 300, V1.V = 5);
   import Modelica.Electrical.Analog.Basic.Resistor;
   import Modelica.Constants.pi;
   
-  parameter Real ResonantFrequencyHz = 1 / (2 * pi * sqrt(L1.L * C1.C));
+  final parameter Real ResonantFrequencyHz = 1 / (2 * pi * sqrt(L1.L * C1.C));
   
   Modelica.Electrical.Analog.Basic.Inductor L1(L = 0.0001) annotation(
     Placement(visible = true, transformation(origin = {-50, 40}, extent = {{-20, -20}, {20, 20}}, rotation = 0)));
