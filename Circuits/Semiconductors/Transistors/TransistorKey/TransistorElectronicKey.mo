@@ -1,4 +1,4 @@
-within Electrodelica.Circuits.Transistors.TransistorKey;
+within Electrodelica.Circuits.Semiconductors.Transistors.TransistorKey;
 
 model TransistorElectronicKey
 extends Base.PulseVoltageAndOut;

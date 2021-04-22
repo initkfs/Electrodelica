@@ -1,4 +1,4 @@
-within Electrodelica.Circuits;
+within Electrodelica.Circuits.Semiconductors;
 package Transistors
 
 annotation (Documentation(info="author: initkfs, 2021."));
